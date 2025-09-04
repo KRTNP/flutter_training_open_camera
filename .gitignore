@@ -1,0 +1,83 @@
+# Miscellaneous
+*.class
+*.iml
+*.pyc
+*.pyo
+*.rbc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+build/
+coverage/
+flutter_export_environment.sh
+
+# Android
+# Ignore sensitive keys
+*.keystore
+*.jks
+**/android/secrets/
+
+# Ignore local properties
+**/android/local.properties
+
+# Android Studio
+.idea/
+captures/
+.gradle/
+android/app/build/
+
+# iOS
+# Xcode
+.xcworkspace/
+build/ios/
+build/ios_integ/
+ios/.symlinks/
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/Runner.xcodeproj/project.xcworkspace/
+ios/Runner.xcodeproj/xcuserdata/
+ios/Flutter/App.framework
+ios/Flutter/engine.xcframework
+ios/Flutter/.podbox.lock
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+
+# Generated plugin registrant
+ios/Runner/GeneratedPluginRegistrant.*
+
+# macOS
+macos/build/
+macos/Flutter/ephemeral/
+macos/.symlinks/
+macos/Pods/
+macos/Runner.xcworkspace
+macos/Runner.xcodeproj/project.xcworkspace/
+macos/Runner.xcodeproj/xcuserdata/
+
+# Linux
+linux/build/
+linux/flutter/ephemeral/
+.plugin_symlinks/
+
+# Windows
+windows/build/
+windows/flutter/ephemeral/
+windows/.plugin_symlinks/
+
+# Web
+web/build/
+.dart_tool/build/
+
+# VS Code
+.vscode/
